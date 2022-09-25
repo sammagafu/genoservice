@@ -25,6 +25,26 @@ const router = createRouter({
       ]
     },
     {
+      path: '/services',
+      children:[
+        {
+          path: 'audit',
+          name: 'audit',
+          component: () => import('../views/services/Hraudit.vue')
+        },
+        {
+          path: 'hrmanagement',
+          name: 'hrmanagement',
+          component: () => import('../views/services/Hrmanagement.vue')
+        },
+        {
+          path: 'recruitment',
+          name: 'recruitment',
+          component: () => import('../views/services/Recruitment.vue')
+        },
+      ]
+    },
+    {
       path: '/contact',
       name: 'contact',
       component: () => import('../views/Contact.vue')

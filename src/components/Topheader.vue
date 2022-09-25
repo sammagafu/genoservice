@@ -5,26 +5,48 @@
           <nav class="z-50 absolute hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:block"> 
             <ul class="navbar flex flex-col justify-center font-pop gap-[34px] lg:flex-row">
               <li><router-link :to="{name:'home'}" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">Home</router-link></li>
-              <li class="flex items-center group"><router-link :to="{name:'about'}" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">About Us</router-link><i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
+              <li class="flex items-center group">
+                <router-link :to="{name:'about'}" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">About Us</router-link><i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
                 <ul class="menu-child opacity-0 bg-white top-full z-50 py-2 grid menu-shadow -translate-x-6 translate-y-8 transition-all duration-200 pointer-events-none group-hover:pointer-events-auto lg:absolute rounded-[4px] group-hover:grid group-hover:opacity-100 before:content-[''] before:block before:absolute before:w-full before:h-12 before:top-[-35px] before:left-0 grid-cols-1 w-[185px]">
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="ab1"><router-link :to="{name:'team'}" class="flex items-center text-[14px]"><span class="whitespace-nowrap">Our Team</span></router-link></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100"><router-link :to="{name:'team'}" class="flex items-center text-[14px]"><span class="whitespace-nowrap">Our Team</span></router-link></li>
                 </ul>
               </li>
-              <li class="flex items-center group"><a class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]" href="#">Services</a><i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
+              <!-- <li class="flex items-center group">
+                <a class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]" href="#">Services</a>
+                <i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
+                <ul class="menu-child opacity-0 bg-white top-full z-50 py-2 grid menu-shadow -translate-x-6 translate-y-8 transition-all duration-200 pointer-events-none group-hover:pointer-events-auto lg:absolute rounded-[4px] group-hover:grid group-hover:opacity-100 before:content-[''] before:block before:absolute before:w-full before:h-12 before:top-[-35px] before:left-0 grid-cols-2 w-[340px]">
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
+                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link>
+                  </li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
+                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link>
+                  </li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
+                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link>
+                  </li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
+                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link>
+                  </li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
+                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link>
+                  </li>
+
+                  </ul>
+              </li> -->
+              <li class="flex items-center group"><a class="hover:text-green-900 text-base font-inter menu-link lg:text-heading-6 mx-[7px]" href="#">Services</a><i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
                 <ul class="menu-child opacity-0 bg-white top-full z-50 py-2 grid menu-shadow -translate-x-6 translate-y-8 transition-all duration-200 pointer-events-none group-hover:pointer-events-auto lg:absolute rounded-[4px] group-hover:grid group-hover:opacity-100 before:content-[''] before:block before:absolute before:w-full before:h-12 before:top-[-35px] before:left-0 grid-cols-1 w-[185px]">
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><a class="flex items-center text-[14px]" href="services-1.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-gem.svg" alt=""><span class="whitespace-nowrap">Services 01</span></a></li>
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv2"><a class="flex items-center text-[14px]" href="services-2.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-gem.svg" alt=""><span class="whitespace-nowrap">Services 02</span></a></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'audit'}" class="flex items-center text-[12px]"><span class="whitespace-nowrap">HR Audit</span></router-link></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'hrmanagement'}" class="flex items-center text-[12px]"><span class="whitespace-nowrap">HR Management</span></router-link></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'recruitment'}" class="flex items-center text-[12px]"><span class="whitespace-nowrap">Recruitment & Selection</span></router-link></li>
                   <li class="hr px-[22px]"> <span class="block bg-gray-100 w-full h-[1px] my-[5px]"></span></li>
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="p1"><a class="flex items-center text-[14px]" href="pricing-1.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-database.svg" alt=""><span class="whitespace-nowrap">Pricing 01</span></a></li>
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="p2"><a class="flex items-center text-[14px]" href="pricing-2.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-database.svg" alt=""><span class="whitespace-nowrap">Pricing 02</span></a></li>
-                  <li class="hr px-[22px]"> <span class="block bg-gray-100 w-full h-[1px] my-[5px]"></span></li>
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="faqs1"><a class="flex items-center text-[14px]" href="faqs-1.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-headset.svg" alt=""><span class="whitespace-nowrap">FAQS 01</span></a></li>
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="faqs2"><a class="flex items-center text-[14px]" href="faqs-2.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-headset.svg" alt=""><span class="whitespace-nowrap">FAQS 02</span></a></li>
-                  <li class="hr px-[22px]"> <span class="block bg-gray-100 w-full h-[1px] my-[5px]"></span></li>
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="career"><a class="flex items-center text-[14px]" href="career.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-briefcase.svg" alt=""><span class="whitespace-nowrap">Career</span></a></li>
-                  <li class="menu-child-item font-chivo group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="career-details"><a class="flex items-center text-[14px]" href="career-details.html"><img class="opacity-40 w-[12px] h-[12px] mr-[8px] -translate-y-[1px]" src="./assets/images/icons/icon-briefcase.svg" alt=""><span class="whitespace-nowrap">Career Detials</span></a></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'audit'}" class="flex items-center text-[12px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'audit'}" class="flex items-center text-[12px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'audit'}" class="flex items-center text-[12px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link></li>
+                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'audit'}" class="flex items-center text-[12px]"><span class="whitespace-nowrap">Human Resource Audit</span></router-link></li>
+                  
                 </ul>
               </li>
+
               <li><router-link :to="{name:'contact'}" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">Contact Us</router-link></li>
 
 
@@ -36,11 +58,11 @@
           <div class="flex items-center border-b p-[15px] lg:p-[26px] gap-[10px] border-[#F2F4F7]"><img class="max-w-[50px]" src="./assets/images/avatar-9.png" alt="avatar">
             <div>
               <p class="font-bold">Hi! Steven</p>
-              <p class="text-sm font-chivo text-gray-500">You have 5 new messages</p>
+              <p class="text-sm font-pop text-gray-500">You have 5 new messages</p>
             </div>
           </div>
           <div class="p-[30px]">
-            <ul class="font-chivo font-medium text-[16px] leading-[16px]">
+            <ul class="font-pop font-medium text-[16px] leading-[16px]">
               <li class="group menu-mobile-item py-[13px]">
                 <div class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
                   <p>Home</p><img class="w-[18px] h-[18px]" src="./assets/images/icons/icon-angle-down-fill.svg" alt="angle icon">
@@ -126,7 +148,7 @@
                 <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">Sign Out</a></li>
               </ul>
             </div>
-            <div class="text-gray-400 font-chivo text-[13px]">Copyright 2022 © Agon - Agency Template.<br><span>Designed by</span><a class="text-green-900" href="http://alithemes.com">&nbsp;AliThemes</a></div>
+            <div class="text-gray-400 font-pop text-[13px]">Copyright 2022 © Agon - Agency Template.<br><span>Designed by</span><a class="text-green-900" href="http://alithemes.com">&nbsp;AliThemes</a></div>
           </div>
         </nav>
       </header>
