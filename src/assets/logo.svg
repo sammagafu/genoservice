@@ -1,1 +1,116 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.76 226.69"  xmlns:v="https://vecta.io/nano"><path d="M161.096.001l-30.225 52.351L100.647.001H-.005l130.877 226.688L261.749.001z" fill="#41b883"/><path d="M161.096.001l-30.225 52.351L100.647.001H52.346l78.526 136.01L209.398.001z" fill="#34495e"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="217.68935mm"
+   height="107.69829mm"
+   viewBox="0 0 217.68935 107.69829"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="GENO Logo Redesign.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.24748737"
+     inkscape:cx="-669.15414"
+     inkscape:cy="-264.1911"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(3.9562856,-67.013951)">
+    <g
+       id="g874"
+       transform="matrix(2.4092978,0,0,2.4092978,-18.623717,0.99149575)"
+       inkscape:export-xdpi="140"
+       inkscape:export-ydpi="140">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="rect845"
+         d="m 32.282508,39.552629 c -3.189795,2.279567 -7.077314,6.207731 -7.951269,11.358954 L 22.049736,45.63301 c -0.185178,-1.661239 7.200548,-6.013563 10.232772,-6.080381 z"
+         style="opacity:1;fill:#243c72;fill-opacity:1;stroke:none;stroke-width:1.12834299;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="rect840"
+         d="m 14.824101,36.673643 c 10.22576,5.736597 11.523526,15.415762 8.999863,23.83068 C 22.43004,50.057269 19.738606,43.330826 14.824101,36.673643 Z"
+         style="opacity:1;fill:#fe7004;fill-opacity:0.98823529;stroke:none;stroke-width:1.10899997;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <circle
+         r="2.1002262"
+         cy="37.385578"
+         cx="23.882692"
+         id="path843"
+         style="opacity:1;fill:#fe7003;fill-opacity:1;stroke:none;stroke-width:1.13544846;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+      <text
+         transform="scale(1.0873284,0.91968532)"
+         id="text850"
+         y="57.916988"
+         x="29.707933"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.4576931px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#243c72;fill-opacity:1;stroke:none;stroke-width:0.25145733"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Franklin Gothic Medium';-inkscape-font-specification:'Franklin Gothic Medium, ';fill:#243c72;fill-opacity:1;stroke-width:0.25145733"
+           y="57.916988"
+           x="29.707933"
+           id="tspan848"
+           sodipodi:role="line">GENO</tspan></text>
+      <text
+         transform="scale(1.0135841,0.98659795)"
+         id="text862"
+         y="60.165134"
+         x="63.04084"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.38619804px;line-height:1.25;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#fe7003;fill-opacity:1;stroke:none;stroke-width:0.23948242"
+         xml:space="preserve"><tspan
+           style="fill:#fe7003;fill-opacity:1;stroke-width:0.23948242"
+           y="60.165134"
+           x="63.04084"
+           id="tspan860"
+           sodipodi:role="line">Services</tspan></text>
+      <rect
+         y="61.284599"
+         x="63.783482"
+         height="0.66145831"
+         width="25.040924"
+         id="rect864"
+         style="opacity:1;fill:#243c72;fill-opacity:1;stroke:none;stroke-width:1.10899997;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
+    </g>
+  </g>
+</svg>
