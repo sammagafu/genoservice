@@ -32,9 +32,9 @@
           </nav>
         </div>
         <div class="burger-icon burger-icon-white menu__icon">
-          <i class="fa   fa-bars"></i>
+          <i class="fa fa-bars"></i>
         </div>
-        <nav class="fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile opacity-0 pointer-events-none transition-all duration-200 w-[380px] z-[100]">
+        <!-- <nav class="fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile opacity-0 pointer-events-none transition-all duration-200 w-[380px] z-[100]">
           <div class="p-[30px]">
             <ul class="font-pop font-medium text-[16px] leading-[16px]">
               <li class="group menu-mobile-item py-[13px]">
@@ -124,6 +124,6 @@
             </div>
             <div class="text-gray-400 font-pop text-[13px]">Copyright 2022 © Agon - Agency Template.<br><span>Designed by</span><a class="text-green-900" href="#">&nbsp;Samuel Fredricl</a></div>
           </div>
-        </nav>
+        </nav> -->
       </header>
 </template>
