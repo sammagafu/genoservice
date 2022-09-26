@@ -23,12 +23,12 @@
           <p class="py-3">Our Human Resource Management Services are tailored to best suit your business operation needs
           </p>
           <div class="grid grid-cols-1 gap-6 md:grid-cols-2 mb-[50px]">
-              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-green-900 hover:-translate-y-1">
+              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-gray-200 hover:-translate-y-1">
                 <div class="flex items-center gap-[17px]" href="#"> 
-                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#158E99]">
+                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#ccc5b9]">
                     <i class="fa fa-crown"></i>
                   </div>
-                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-white">Managed Services</p>
+                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-grey-700">Managed Services</p>
                 </div>
                 <ul class="py-8 list-disc px-[24px] font-pop text-base">
                   <li class="py-2">We employ all staff to work for you</li>
@@ -37,12 +37,12 @@
                 </ul>
               </div>
 
-              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-green-900 hover:-translate-y-1">
+              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-gray-200 hover:-translate-y-1">
                 <div class="flex items-center gap-[17px]" href="#"> 
-                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#158E99]">
+                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#ccc5b9]">
                     <i class="fa fa-download"></i>
                   </div>
-                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-white">HR Manager Onsite</p>
+                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-grey-700">HR Manager Onsite</p>
                 </div>
                 <ul class="py-8 list-disc px-[24px] font-pop text-base">
                   <li class="py-2">We deploy a HR manager to be stationed in your office</li>
@@ -52,12 +52,12 @@
                 </ul>
               </div>
 
-              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-green-900 hover:-translate-y-1">
+              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-gray-200 hover:-translate-y-1">
                 <div class="flex items-center gap-[17px]" href="#"> 
-                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#158E99]">
+                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#ccc5b9]">
                     <i class="fa fa-upload"></i>
                   </div>
-                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-white">HR Manager Offsite</p>
+                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-grey-700">HR Manager Offsite</p>
                 </div>
                 <ul class="py-8 list-disc px-[24px] font-pop text-base">
                   <li class="py-2">The HR manager is stationed in out office</li>
@@ -68,12 +68,12 @@
                 </ul>
               </div>
 
-              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-green-900 hover:-translate-y-1">
+              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-gray-200 hover:-translate-y-1">
                 <div class="flex items-center gap-[17px]" href="#"> 
-                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#158E99]">
+                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#ccc5b9]">
                     <i class="fa fa-bolt"></i>
                   </div>
-                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-white">HR Advisory</p>
+                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-grey-700">HR Advisory</p>
                 </div>
                 <ul class="py-8 list-disc px-[24px] font-pop text-base">
                   <li class="py-2">You have all advisory support from GENO</li>
@@ -81,12 +81,12 @@
                 </ul>
               </div>
 
-              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-green-900 hover:-translate-y-1">
+              <div class="rounded-2xl py-[35px] px-[24px] border border-gray-200 card-shadow group cursor-pointer transition-all duration-200 hover:bg-gray-200 hover:-translate-y-1">
                 <div class="flex items-center gap-[17px]">
-                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#158E99]">
+                  <div class="bg-opacity-20 rounded-full transition-all duration-200 grid place-items-center w-[40px] h-[40px] xl:w-[60px] xl:h-[60px] bg-[#0B7B3F] group-hover:bg-[#ccc5b9]">
                     <i class="fa fa-crown"></i>
                   </div>
-                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-white">Payroll Service</p>
+                  <p class="text-heading-6 font-bold font-chivo transition-colors duration-200 group-hover:text-grey-700">Payroll Service</p>
                 </div>
                 <ul class="py-8 list-disc px-[24px] font-pop text-base">
                   <li class="py-2">Salary computation</li>
@@ -98,7 +98,7 @@
             </div>
         </div>
         <div class="flex-1 order-1 lg:gap-[30px] xl:gap-[64px]"><span
-            class="font-chivo inline-block bg-bg-6 text-green-900 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
+            class="font-chivo inline-block bg-bg-6 text-gray-200 py-[14px] px-[28px] rounded-[50px] text-[14px] leading-[14px] mb-[22px]">
             We are flexible</span>
           <h3
             class="font-chivo font-bold lg:text-heading-1 md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]">
