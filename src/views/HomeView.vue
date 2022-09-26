@@ -1,5 +1,7 @@
 <template>
-  <div class="full-width banner-hero bg-bg-6 banner-2">
+  <div class="wrapper mx-auto text-gray-900 font-normal max-w-[1320px]">
+
+    <div class="full-width banner-hero bg-bg-6 banner-2">
     <Carousel :items-to-show="1" :autoplay="10000" :wrapAround="true">
             <Slide v-for="carousel in carousel" :key="carousel">
               <div class="slider-image bg-cover">
@@ -45,12 +47,12 @@
               </div>
             </div>
             <button type="button">
-              <a class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 bg-black w-fit" href="#">
+              <router-link :to="{name:'audit'}" class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit">
                 <span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">View More</span>
                 <i>
                   <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="@/assets/icons/icon-right.svg" alt="arrow right icon">
                 </i>
-              </a>
+              </router-link>
             </button>
           </div>
         </div>
@@ -85,12 +87,12 @@
               </div>
             </div>
             <button type="button">
-              <a class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 bg-black w-fit" href="#">
+              <router-link :to="{name:'hrmanagement'}" class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit">
                 <span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">View More</span>
                 <i>
                   <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="@/assets/icons/icon-right.svg" alt="arrow right icon">
                 </i>
-              </a>
+              </router-link>
             </button>
           </div>
         </div>
@@ -117,12 +119,12 @@
               </div>
             </div>
             <button type="button">
-              <a class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 bg-black w-fit" href="#">
+              <router-link :to="{name:'recruitment'}" class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit">
                 <span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">View More</span>
                 <i>
                   <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="@/assets/icons/icon-right.svg" alt="arrow right icon">
                 </i>
-              </a>
+              </router-link>
             </button>
           </div>
         </div>
@@ -149,12 +151,12 @@
               </div>
             </div>
             <button type="button">
-              <a class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit" href="#">
+              <router-link :to="{name:'organization'}" class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit">
                 <span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">View More</span>
                 <i>
                   <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="@/assets/icons/icon-right.svg" alt="arrow right icon">
                 </i>
-              </a>
+              </router-link>
             </button>
           </div>
         </div>
@@ -170,12 +172,12 @@
             <h3 class="font-bebas font-bold lg:text-8xl md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]"> Expartriates Management</h3>
             <p class="text-pop md:text-lead-lg text-gray-600 mb-[20px]">Working with Expatriates at your organization should be easier, we handle Expatriates paper work on your behalf with ease. Serving your business more time to focus on the core of your business.</p>
             <button type="button">
-              <a class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 bg-black w-fit" href="#">
+              <router-link :to="{name:'expatriates'}" class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit">
                 <span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">View More</span>
                 <i>
                   <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="@/assets/icons/icon-right.svg" alt="arrow right icon">
                 </i>
-              </a>
+              </router-link>
             </button>
           </div>
         </div>
@@ -189,14 +191,12 @@
           <div class="flex-1 lg:gap-[30px] xl:gap-[64px]">
             <h3 class="font-bebas font-bold lg:text-8xl md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]">Company Secretarial Services</h3>
             <p class="text-pop md:text-lead-lg text-gray-600 mb-[20px]">We work on behalf of your company, effectively offering you ‘Company Secretarial Services’ which are routine tasks but consume considerable amount of time to work out.</p>
-            <button type="button">
-              <a class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 bg-black w-fit" href="#">
+            <router-link :to="{name:'secretatial'}" class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit">
                 <span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">View More</span>
                 <i>
                   <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="@/assets/icons/icon-right.svg" alt="arrow right icon">
                 </i>
-              </a>
-            </button>
+              </router-link>
           </div>
         </div>
       </div>
@@ -209,21 +209,19 @@
           <div class="flex-1 lg:gap-[30px] xl:gap-[64px]">
             <h3 class="font-bebas font-bold lg:text-8xl md:text-[46px] md:leading-[52px] text-[35px] leading-[44px] mb-[22px]">Learning & Leadership Development</h3>
             <p class="text-pop md:text-lead-lg text-gray-600 mb-[20px]">Ensuring your workforce is equipped with competitive new skills, frequent training and leadership development is inevitably important to consider. Our customers enjoy carefully planned and well-organized training which equip their teams with competitive leading age skills.</p>
-            <button type="button">
-              <a class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px text-white hover:bg-gray-100 hover:text-gray-900 bg-black w-fit" href="#">
+            <router-link :to="{name:'learning'}" class="flex my-4 items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-gray-900 text-white hover:bg-gray-100 hover:text-gray-900 w-fit">
                 <span class="block text-inherit w-full h-full rounded-[50px] text-lg font-chivo font-semibold">View More</span>
                 <i>
                   <img class="ml-[7px] w-[12px] filter-white group-hover:filter-black" src="@/assets/icons/icon-right.svg" alt="arrow right icon">
                 </i>
-              </a>
-            </button>
+              </router-link>
           </div>
         </div>
       </div>
     </div>
     <!-- service ends here -->
     <div class="clients">
-      <h2 class="font-bold font-chivo text-[25px] leading-[30px] md:text-heading-3 text-center mb-[40px] md:mb-[60px] lg:mb-[84px]">Trusted by the world’s leading companies</h2>
+      <h2 class="font-bold font-pop mt text-[25px] leading-[30px] md:text-heading-3 text-center mt-[60px] md:mb-[60px] lg:mt-[84px]">Trusted by the world’s leading companies</h2>
       <div>
         <div class="brand">
           <Carousel :items-to-show="6" :settings="settings" :breakpoints="breakpoints" :autoplay="2000">
@@ -236,6 +234,8 @@
         </div>
       </div>
     </div>
+  </div>
+  
   </template>
   <style scoped>
     .brand__item {

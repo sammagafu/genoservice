@@ -11,6 +11,7 @@
                   <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100"><router-link :to="{name:'team'}" class="flex items-center text-[14px]">Our Team</router-link></li>
                 </ul>
               </li>
+              <li><a href="https://riseandlearn.ke/" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">E.A HR Symposium</a></li>
               <li class="flex items-center group"><a class="hover:text-green-900 text-base font-inter menu-link lg:text-heading-6 mx-[7px]" href="#">Services</a><i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
                 <ul class="menu-child opacity-0 bg-white top-full z-50 py-2 grid menu-shadow -translate-x-6 translate-y-8 transition-all duration-200 pointer-events-none group-hover:pointer-events-auto lg:absolute rounded-[4px] group-hover:grid group-hover:opacity-100 before:content-[''] before:block before:absolute before:w-full before:h-12 before:top-[-35px] before:left-0 grid-cols-1 w-[185px]">
                   <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'audit'}" class="flex items-center text-[14px]">HR Audit</router-link></li>
