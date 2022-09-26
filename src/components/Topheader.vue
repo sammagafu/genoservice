@@ -1,6 +1,7 @@
 <template>
+  <div class="overlay" :class="{'show':isOpen}"></div>
     <header class="h-auto full-width relative py-[15px] first-letter:lg:py-[26px]">
-        <div class="px-[14px] md:px-[36px] xl:px-0 mt-0 flex items-center justify-between mx-auto relative max-w-[1320px]">
+        <div class="px-[12px] md:px-[36px] xl:px-0 mt-0 flex items-center justify-between mx-auto relative max-w-[1320px]">
             <router-link :to="{name:'home'}" class="flex"><img class="logo z-50 w-[90px] md:w-[101px] lg:w-[122px] xl:w-[138px]" src="../assets/logo.svg" alt="logo image"></router-link>
           <nav class="z-50 absolute hidden top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 lg:block"> 
             <ul class="navbar flex flex-col justify-center font-pop gap-[34px] lg:flex-row">
@@ -38,99 +39,80 @@
           </button>
           </div>
         </div>
-        <div class="burger-icon burger-icon-white menu__icon">
+        <div class="burger-icon burger-icon-white menu__icon" :class="{'burger-close':isOpen}" @click="myToogle">
           <i class="fa fa-bars"></i>
         </div>
-        <!-- <nav class="fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile opacity-0 pointer-events-none transition-all duration-200 w-[380px] z-[100]">
+        <nav class="fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile transition-all duration-200 w-[380px] z-[100]" :class="{'opacity-0':isOpen,'pointer-events-none':isOpen}">
           <div class="p-[30px]">
-            <ul class="font-pop font-medium text-[16px] leading-[16px]">
-              <li class="group menu-mobile-item py-[13px]">
-                <div class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
-                  <p>Home</p><img class="w-[18px] h-[18px]" src="./assets/images/icons/icon-angle-down-fill.svg" alt="angle icon">
-                </div>
-                <ul class="pl-5 menu-child hidden pt-[10px]">
-                  <li class="text-md py-[10px]" id="hp1"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="#">Homepage 01</a></li>
-                  <li class="text-md py-[10px]" id="hp2"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="home-2.html">Homepage 02</a></li>
-                  <li class="text-md py-[10px]" id="hp3"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="home-3.html">Homepage 03</a></li>
-                  <li class="text-md py-[10px]" id="hp4"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="home-4.html">Homepage 04</a></li>
-                  <li class="text-md py-[10px]" id="hp5"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="home-5.html">Homepage 05</a></li>
-                  <li class="text-md py-[10px]" id="hp6"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="home-6.html">Homepage 06</a></li>
-                  <li class="text-md py-[10px]" id="hp7"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="home-7.html">Homepage 07</a></li>
-                  <li class="text-md py-[10px]" id="hp8"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="home-8.html">Homepage 08</a></li>
-                </ul>
-              </li>
-              <li class="group menu-mobile-item py-[13px]">
-                <div class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
-                  <p>About</p><img class="w-[18px] h-[18px]" src="./assets/images/icons/icon-angle-down-fill.svg" alt="angle icon">
-                </div>
-                <ul class="pl-5 menu-child hidden pt-[10px]">
-                  <li class="text-md py-[10px]" id="ab1"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="about-1.html">About 01</a></li>
-                  <li class="text-md py-[10px]" id="ab2"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="about-2.html">About 02</a></li>
-                  <li class="text-md py-[10px]" id="ab3"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="about-3.html">About 03</a></li>
-                </ul>
-              </li>
-              <li class="group menu-mobile-item py-[13px]">
-                <div class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
-                  <p>Services</p><img class="w-[18px] h-[18px]" src="./assets/images/icons/icon-angle-down-fill.svg" alt="angle icon">
-                </div>
-                <ul class="pl-5 menu-child hidden pt-[10px]">
-                  <li class="text-md py-[10px]" id="sv1"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="services-1.html">Services 01</a></li>
-                  <li class="text-md py-[10px]" id="sv2"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="services-2.html">Services 02</a></li>
-                  <li class="text-md py-[10px]" id="p1"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="pricing-1.html">Pricing 01</a></li>
-                  <li class="text-md py-[10px]" id="p2"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="pricing-2.html">Pricing 02</a></li>
-                  <li class="text-md py-[10px]" id="faqs1"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="faqs-1.html">FAQS 01</a></li>
-                  <li class="text-md py-[10px]" id="faqs2"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="faqs-2.html">FAQS 02</a></li>
-                  <li class="text-md py-[10px]" id="career"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="career.html">Career</a></li>
-                  <li class="text-md py-[10px]" id="career-details"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="career-details.html">Career Detials</a></li>
-                </ul>
-              </li>
-              <li class="group menu-mobile-item py-[13px]">
-                <div class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
-                  <p>Pages</p><img class="w-[18px] h-[18px]" src="./assets/images/icons/icon-angle-down-fill.svg" alt="angle icon">
-                </div>
-                <ul class="pl-5 menu-child hidden pt-[10px]">
-                  <li class="text-md py-[10px]" id="contact"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="contact.html">Contact</a></li>
-                  <li class="text-md py-[10px]" id="singup"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="signup.html">Sign Up</a></li>
-                  <li class="text-md py-[10px]" id="login"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="login.html">Log In</a></li>
-                  <li class="text-md py-[10px]" id="rp"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="reset-password.html">Reset Password</a></li>
-                  <li class="text-md py-[10px]" id="error404"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="error-404.html">Error 404</a></li>
-                </ul>
-              </li>
-              <li class="group menu-mobile-item py-[13px]">
-                <div class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
-                  <p>Blog</p><img class="w-[18px] h-[18px]" src="./assets/images/icons/icon-angle-down-fill.svg" alt="angle icon">
-                </div>
-                <ul class="pl-5 menu-child hidden pt-[10px]">
-                  <li class="text-md py-[10px]" id="b1"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="blog-1.html">Blog 01</a></li>
-                  <li class="text-md py-[10px]" id="b2"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="blog-2.html">Blog 02</a></li>
-                  <li class="text-md py-[10px]" id="single"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="single.html">Blog Single</a></li>
-                </ul>
-              </li>
-              <li class="group menu-mobile-item py-[13px]">
-                <div class="flex items-center justify-between transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">
-                  <p>Shop</p><img class="w-[18px] h-[18px]" src="./assets/images/icons/icon-angle-down-fill.svg" alt="angle icon">
-                </div>
-                <ul class="pl-5 menu-child hidden pt-[10px]">
-                  <li class="text-md py-[10px]" id="s1"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="shop-1.html">Shop 01</a></li>
-                  <li class="text-md py-[10px]" id="s2"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="shop-2.html">Shop 02</a></li>
-                  <li class="text-md py-[10px]" id="product"><a class="block transition-all duration-200 hover:text-green-900 hover:translate-x-1" href="single-product.html">Product Details</a></li>
-                </ul>
-              </li>
-            </ul>
-            <div class="mt-5 border-t border-b border-gray-100 pb-5 mb-[25px] pt-[30px]">
-              <p class="font-bold text-heading-6 mb-[10px]">Your Account</p>
+           
+            <div class="mt-8 border-gray-100 pb-5 mb-[25px] pt-[30px]">
               <ul class="text-[15px]"> 
-                <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">Profile</a></li>
-                <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">Work Preferences</a></li>
-                <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">My Boosted Shots</a></li>
-                <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">My Collections</a></li>
-                <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">Account Settings</a></li>
-                <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">Go Pro</a></li>
-                <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">Sign Out</a></li>
+                <li class="py-[13px]">
+                  <router-link :to="{name:'home'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Home</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'about'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">About Us</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'team'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Team</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'audit'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">HR Audit</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'hrmanagement'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">HR Management</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'recruitment'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Recruitment & Selection</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'organization'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Organization Development</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'expatriates'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Expatriates Management</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'secretatial'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Company Secretarial</router-link>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'learning'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Learning & Leadership Development</router-link>
+                </li>
+                
+                <li class="py-[13px]">
+                  <a href="https://riseandlearn.ke/" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">E.A HR Symposium</a>
+                </li>
+
+                <li class="py-[13px]">
+                  <router-link :to="{name:'contact'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Contact Us</router-link>
+                </li>
+                <!-- fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile transition-all duration-200 w-[380px] z-[100] opacity-0 pointer-events-none -->
               </ul>
             </div>
-            <div class="text-gray-400 font-pop text-[13px]">Copyright 2022 © Agon - Agency Template.<br><span>Designed by</span><a class="text-green-900" href="#">&nbsp;Samuel Fredricl</a></div>
           </div>
-        </nav> -->
+        </nav>
       </header>
 </template>
+<script>
+  export default {
+    data(){
+      return {
+        isOpen : true
+      }
+    },
+    methods: {
+    myToogle: function() {
+      this.isOpen = !this.isOpen;
+      // some code to filter users
+    }
+  }
+  }
+</script>
