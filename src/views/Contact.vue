@@ -2,9 +2,7 @@
 <div class="container mx-auto">
     <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[138px]">
         <div class="text-center mb-[100px]">
-          <h2 class="font-bold font-pop mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-full">Our Location</h2>
-          <p class="text-quote md:text-lead-lg text-gray-600 mx-auto max-w-[743px]">In a professional context it often happens that private or corporate clients order a publication to publish news.
-          </p>
+          <h2 class="font-bold font-pop mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] max-w-full">Contact Us</h2>
         </div>
         <div class="justify-between lg:flex lg:items-center gap-[30px]">
           <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px] last:mb-0">
@@ -14,28 +12,24 @@
               </h3>
               <p class="text-[#7E7E7E] font-pop text-[14px] leading-[18px]">GENO SERVICES LIMITED</p>
               <p class="text-[#7E7E7E] font-pop text-[14px] leading-[18px]">3rd Floor, FNB House</p>
-              <p class="text-[#7E7E7E] font-pop text-[14px] leading-[18px]">Phone: (123) 456-7890</p>
-              <p class="text-[#7E7E7E] font-pop text-[14px] leading-[18px]">Email: contact@Evara.com</p>
+              <p class="text-[#7E7E7E] font-pop text-[14px] leading-[18px]">P. O. Box 75355 Dar-es-Salaam Tanzania</p>
             </div>
           </div>
           <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px] last:mb-0"><img class="h-full w-full object-cover max-w-[64px]" src="@/assets/img/icon/phone.png" alt="icon">
             <div> 
               <h3 class="font-bold font-pop text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Call Us via
               </h3>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">205 North Michigan Avenue, Suite 810</p>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">Chicago, 60601, USA</p>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">Phone: (123) 456-7890</p>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">Email: contact@Evara.com</p>
+              <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="tel:+255733148547">Phone: +255 733 148 547</a></p>
+              <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="tel:+255717626035">Phone: +255 717 626 035</a></p>
+              <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="tel:+255679077078">Phone: +255 679 077 078</a></p>
             </div>
           </div>
           <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px]"><img class="h-full w-full object-cover max-w-[64px]" src="@/assets/img/icon/internet.png" alt="icon">
             <div> 
               <h3 class="font-bold font-pop text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Email us
               </h3>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">205 North Michigan Avenue, Suite 810</p>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">Chicago, 60601, USA</p>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">Phone: (123) 456-7890</p>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]">Email: contact@Evara.com</p>
+              <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="mailto:info@genoservices.co.tz">Email:  info@genoservices.co.tz</a></p>
+              <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="https://genoservices.co.tz">website:  www.genoservices.co.tz</a></p>
             </div>
           </div>
         </div>

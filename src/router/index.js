@@ -42,6 +42,26 @@ const router = createRouter({
           name: 'recruitment',
           component: () => import('../views/services/Recruitment.vue')
         },
+        {
+          path: 'organization',
+          name: 'organization',
+          component: () => import('../views/services/Organization.vue')
+        },
+        {
+          path: 'expatriates',
+          name: 'expatriates',
+          component: () => import('../views/services/Expatriates.vue')
+        },
+        {
+          path: 'secretatial',
+          name: 'secretatial',
+          component: () => import('../views/services/Secretarial.vue')
+        },
+        {
+          path: 'learning',
+          name: 'learning',
+          component: () => import('../views/services/Learning.vue')
+        },
       ]
     },
     {
