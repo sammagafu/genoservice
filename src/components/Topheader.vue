@@ -32,7 +32,7 @@
 
             </ul>
           </nav>
-          <div class="hidden xl:block">
+          <div class="hidden xl:block" @click="myToogle">
             <button type="button"> <a class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-sky-700	 text-gray-100 hover:bg-gray-900 hover:text-white" href="https://riseandlearn.ke/">
               <span class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-bold font-pop">E.A HR Symposium</span>
             </a>
@@ -43,7 +43,7 @@
           <i class="fa fa-bars"></i>
         </div>
         <nav class="fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile transition-all duration-200 w-[380px] z-[100]" :class="{'opacity-0':isOpen,'pointer-events-none':isOpen}">
-          <div class="p-[30px]">
+          <div class="p-[30px]" @click="myToogle">
            
             <div class="mt-8 border-gray-100 pb-5 mb-[25px] pt-[30px]">
               <ul class="text-[15px]"> 
