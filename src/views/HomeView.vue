@@ -1,15 +1,13 @@
 <template>
-    <div class="full-width banner-hero bg-orange-100 banner-1">
-      <div class="fullwidth">
-        <div class="">
-          <Carousel :items-to-show="1" :autoplay="10000" :wrapAround="true">
+  <div class="full-width banner-hero bg-bg-6 banner-2">
+    <Carousel :items-to-show="1" :autoplay="10000" :wrapAround="true">
             <Slide v-for="carousel in carousel" :key="carousel">
-              <div class="slider-image">
+              <div class="slider-image bg-cover">
                 <img :src="carousel.image" alt="" srcset="">
               </div>
               <div class="caption">
                 <div class="hero__content mt-50">
-                  <h2 class="title text-white">{{carousel.caption}}</h2>
+                  <h2 class="font-bebas font-bold text-6xl">{{carousel.caption}}</h2>
                 </div>
               </div>
             </Slide>
@@ -17,9 +15,8 @@
               <Navigation class="navigation" />
             </template>
           </Carousel>
-        </div>
-      </div>
-    </div>
+  </div>
+
     <!-- service start here -->
     <div class="container lg:mx-auto md:mx-2">
       <div class="px-[12px] md:px-[36px] xl:px-0 mt-[70px] lg:mt-[150px]">
@@ -270,9 +267,9 @@
     import img9 from "@/assets/img/brand/p9.png"
     import img10 from "@/assets/img/brand/p10.png"
     // slider images
-    import slider1 from "@/assets/img/genobackground.jpg"
-    import slider2 from "@/assets/img/eacs.jpg"
-    import slider3 from "@/assets/img/madam.jpg"
+    // import slider1 from "@/assets/img/slider/genobackground.jpg"
+    import slider2 from "@/assets/img/slider/east.jpg"
+    import slider3 from "@/assets/img/slider/madam.jpg"
     export default {
       components: {
         Carousel,
@@ -283,13 +280,12 @@
         carousel: [{
           "image": slider2,
           "caption": ""
-        }, {
-          "image": slider1,
-          "caption": ""
-        }, {
+        }, 
+        {
           "image": slider3,
           "caption": "Your Reliable HR Partner for People, Policies, Process & Systems Solutions."
-        }, ],
+        }, 
+      ],
         clients: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10],
         // carousel: [slider1, slider2, slider3],
         // carousel setting
