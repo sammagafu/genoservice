@@ -11,28 +11,6 @@
                   <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100"><router-link :to="{name:'team'}" class="flex items-center text-[14px]">Our Team</router-link></li>
                 </ul>
               </li>
-              <!-- <li class="flex items-center group">
-                <a class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]" href="#">Services</a>
-                <i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
-                <ul class="menu-child opacity-0 bg-white top-full z-50 py-2 grid menu-shadow -translate-x-6 translate-y-8 transition-all duration-200 pointer-events-none group-hover:pointer-events-auto lg:absolute rounded-[4px] group-hover:grid group-hover:opacity-100 before:content-[''] before:block before:absolute before:w-full before:h-12 before:top-[-35px] before:left-0 grid-cols-2 w-[340px]">
-                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
-                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]">Human Resource Audit</span></router-link>
-                  </li>
-                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
-                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]">Human Resource Audit</span></router-link>
-                  </li>
-                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
-                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]">Human Resource Audit</span></router-link>
-                  </li>
-                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
-                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]">Human Resource Audit</span></router-link>
-                  </li>
-                  <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="hp1">
-                    <router-link :to="{name:'audit'}" class="flex items-center text-[14px]">Human Resource Audit</span></router-link>
-                  </li>
-
-                  </ul>
-              </li> -->
               <li class="flex items-center group"><a class="hover:text-green-900 text-base font-inter menu-link lg:text-heading-6 mx-[7px]" href="#">Services</a><i><img class="icon-caret group-hover:filter-green" src="../assets/icons/icon-caret.svg" alt="caret"></i>
                 <ul class="menu-child opacity-0 bg-white top-full z-50 py-2 grid menu-shadow -translate-x-6 translate-y-8 transition-all duration-200 pointer-events-none group-hover:pointer-events-auto lg:absolute rounded-[4px] group-hover:grid group-hover:opacity-100 before:content-[''] before:block before:absolute before:w-full before:h-12 before:top-[-35px] before:left-0 grid-cols-1 w-[185px]">
                   <li class="menu-child-item font-pop group transition-all duration-200 py-[10px] px-[22px] hover:filter-green hover:pl-[25px] hover:opacity-100" data-menu="sv1"><router-link :to="{name:'audit'}" class="flex items-center text-[14px]">HR Audit</router-link></li>
@@ -53,9 +31,12 @@
             </ul>
           </nav>
         </div>
-        <div class="burger-icon burger-icon-white menu__icon"><span class="burger-icon-top"></span><span class="burger-icon-mid"> </span><span class="burger-icon-bottom"></span></div>
+        <div class="burger-icon burger-icon-white menu__icon">
+          <i class="fa fa-bars"></i>
+        </div>
         <nav class="fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile opacity-0 pointer-events-none transition-all duration-200 w-[380px] z-[100]">
-          <div class="flex items-center border-b p-[15px] lg:p-[26px] gap-[10px] border-[#F2F4F7]"><img class="max-w-[50px]" src="./assets/images/avatar-9.png" alt="avatar">
+          <div class="flex items-center border-b p-[15px] lg:p-[26px] gap-[10px] border-[#F2F4F7]">
+            <!-- <img class="max-w-[50px]" src="./assets/images/avatar-9.png" alt="avatar"> -->
             <div>
               <p class="font-bold">Hi! Steven</p>
               <p class="text-sm font-pop text-gray-500">You have 5 new messages</p>
@@ -148,7 +129,7 @@
                 <li class="py-[13px]"><a class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]" href="#">Sign Out</a></li>
               </ul>
             </div>
-            <div class="text-gray-400 font-pop text-[13px]">Copyright 2022 © Agon - Agency Template.<br><span>Designed by</span><a class="text-green-900" href="http://alithemes.com">&nbsp;AliThemes</a></div>
+            <div class="text-gray-400 font-pop text-[13px]">Copyright 2022 © Agon - Agency Template.<br><span>Designed by</span><a class="text-green-900" href="#">&nbsp;Samuel Fredricl</a></div>
           </div>
         </nav>
       </header>
