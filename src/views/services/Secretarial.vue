@@ -20,10 +20,13 @@
                 <p>We facilitate the process of acquiring: -</p>
                 <div>
                     <ul>
-                        <li><p><i class="fa fa-check mr-2"></i>  Regulatory & statutory Filings for Annual return, Audited financial report and Filling of board resolutions, we also do,</p></li>
-                        <li><p><i class="fa fa-check mr-2"></i>  Business registration</p></li>
-                        <li><p><i class="fa fa-check mr-2"></i>  Facilitate the acquisition of new business license and renewal of the same,</p></li>
-                        <li><p><i class="fa fa-check mr-2"></i>  Logistics</p></li>
+                        <li class="flex items-center">
+                          <i class="fa fa-check mr-2"></i> 
+                          <p>Regulatory & statutory Filings for Annual return, Audited financial report and Filling of board resolutions, we also do,</p>
+                        </li>
+                        <li class="flex items-center"><i class="fa fa-check mr-2"></i><p>Business registration</p></li>
+                        <li class="flex items-center"><i class="fa fa-check mr-2"></i><p>Facilitate the acquisition of new business license and renewal of the same,</p></li>
+                        <li class="flex items-center"><i class="fa fa-check mr-2"></i><p>Logistics</p></li>
                     </ul>
                 </div>
               </div>

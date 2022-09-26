@@ -20,10 +20,10 @@
                 <p>We facilitate the process:-</p>
                 <div>
                     <ul>
-                        <li><p><i class="fa fa-check mr-2"></i>  A business Visa, Work and Resident Permits</p></li>
-                        <li><p><i class="fa fa-check mr-2"></i>  We provide Security Advisory for Expatriates (Subtle information to ensure expatriate’s safety and the safety of their properties wherever they will be in Tanzania)</p></li>
-                        <li><p><i class="fa fa-check mr-2"></i>  We provide Logistics services as may be requested or needed by our customers</p></li>
-                        <li><p><i class="fa fa-check mr-2"></i>  We offer support to Expatriate’s Family even in the absence of principle beneficiary</p></li>
+                        <li class="flex items-center"><i class="fa fa-check mr-2"></i><p> A business Visa, Work and Resident Permits</p></li>
+                        <li class="flex items-center"><i class="fa fa-check mr-2"></i><p> We provide Security Advisory for Expatriates (Subtle information to ensure expatriate’s safety and the safety of their properties wherever they will be in Tanzania)</p></li>
+                        <li class="flex items-center"><i class="fa fa-check mr-2"></i><p> We provide Logistics services as may be requested or needed by our customers</p></li>
+                        <li class="flex items-center"><i class="fa fa-check mr-2"></i><p> We offer support to Expatriate’s Family even in the absence of principle beneficiary</p></li>
                     </ul>
                 </div>
               </div>

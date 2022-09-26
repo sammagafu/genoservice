@@ -108,20 +108,22 @@
           <p>Our HR Audit services offers</p>
           <div>
             <ul>
-              <li>
-                <p><i class="fa fa-check mr-2"></i> Workforce Management</p>
+              <li class="flex items-center">
+                <i class="fa fa-check mr-2"></i> <p>Workforce Management</p>
               </li>
-              <li>
-                <p><i class="fa fa-check mr-2"></i> Exit management, where we facilitate: -Termination of employment
+              <li class="flex items-center">
+                <i class="fa fa-check mr-2"></i> <p>Exit management, where we facilitate: -Termination of employment
                   process, Redundancy and Redundancy payment process, Retrenchment process, Retirement process, Review
                   any nondisclosure agreement, Conduct exit interview</p>
               </li>
-              <li>
-                <p><i class="fa fa-check mr-2"></i> Payroll Services, we Calculate deductions, Process and issue salary
+              <li class="flex items-center">
+                <i class="fa fa-check mr-2"></i>
+                <p> Payroll Services, we Calculate deductions, Process and issue salary
                   payments, Statutory analysis and payments</p>
               </li>
-              <li>
-                <p><i class="fa fa-check mr-2"></i> HR Compliance Audit, we help our clients achieve compliance such
+              <li class="flex items-center">
+                <i class="fa fa-check mr-2"></i>
+                <p> HR Compliance Audit, we help our clients achieve compliance such
                   as:- Labour law compliancy, Occupational Health and safety compliance, Check HR company policies.</p>
               </li>
             </ul>
