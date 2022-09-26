@@ -32,16 +32,9 @@
           </nav>
         </div>
         <div class="burger-icon burger-icon-white menu__icon">
-          <i class="fa fa-bars"></i>
+          <i class="fa   fa-bars"></i>
         </div>
         <nav class="fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile opacity-0 pointer-events-none transition-all duration-200 w-[380px] z-[100]">
-          <div class="flex items-center border-b p-[15px] lg:p-[26px] gap-[10px] border-[#F2F4F7]">
-            <!-- <img class="max-w-[50px]" src="./assets/images/avatar-9.png" alt="avatar"> -->
-            <div>
-              <p class="font-bold">Hi! Steven</p>
-              <p class="text-sm font-pop text-gray-500">You have 5 new messages</p>
-            </div>
-          </div>
           <div class="p-[30px]">
             <ul class="font-pop font-medium text-[16px] leading-[16px]">
               <li class="group menu-mobile-item py-[13px]">
