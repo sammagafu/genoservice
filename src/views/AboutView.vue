@@ -21,6 +21,25 @@
     <div class="relative mx-auto max-w-[1190px]">
       <img class="h-full w-full object-cover rounded-2xl" src="../assets/img/about/img_02.jpg" alt="Agon">
     </div>
+
+    <div class="py-24 lg:px-40">
+      <div class="lg:flex lg:items-start gap-[30px]">
+          <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] rounded shadow-lg p-[30px] last:mb-0 bg-gray-200">
+            <img class="h-full w-full object-cover max-w-[64px]" src="@/assets/icons/flag.png" alt="icon">
+            <div> 
+              <h3 class="font-bold font-pop text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Our Vision</h3>
+              <p class="text-excerpt">To be an innovative, impactful and sustainable human resources consulting firm across the globe. <br></p>
+            </div>
+          </div>
+          <div class="flex items-start gap-5 transition-all duration-300 mb-[30px] hover:translate-y-[-3px] rounded shadow-lg p-[30px] last:mb-0 bg-gray-200">
+            <img class="h-full w-full object-cover max-w-[64px]" src="@/assets/icons/mission.png" alt="icon">
+            <div> 
+              <h3 class="font-bold font-pop text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Mission</h3>
+              <p class="text-excerpt">To continuously craft quality solutions designed to build and maintain long-term business relationships.</p>
+            </div>
+          </div>
+        </div>
+    </div>
     <div class="text-center my-[40px] lg:mb-[90px]">
       <h2
         class="font-bold font-pop mx-auto text-[35px] leading-[44px] md:text-[46px] md:leading-[52px] lg:text-heading-1 text-gray-900 mb-5 md:mb-[30px] w-full">
@@ -28,41 +47,49 @@
     </div>
 
     <div class="container mx-auto lg:grid grid-cols-4 lg:items-center gap-[30px]">
-          <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px] last:mb-0">
-            <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/astronaut.png" alt="icon">
-            <div> 
-              <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
-                Professionalism
-              </h3>
-              <p class="text-excerpt">We are seasoned professionals, continuously educating ourselves and preparing for the challenges ahead.</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px] last:mb-0">
-            <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/bulb.png" alt="icon">
-            <div> 
-              <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Innovation</h3>
-              <p class="text-excerpt">We create an atmosphere where everyone’s idea counts. <br></p>
-            </div>
-          </div>
-          <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px]">
-            <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/integration.png" alt="icon">
-            <div> 
-              <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Integrity
-              </h3>
-              <p class="text-excerpt">We demonstrate integrity through being fair, honest and confidential.</p>
-            </div>
-          </div>
-          <div class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px]">
-            <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/medal.png" alt="icon">
-            <div> 
-              <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Quality
-              </h3>
-              <p class="text-excerpt">We are a high performing, high quality organization dedicated to human resource services.</p>
-            </div>
-          </div>
+      <div
+        class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px] last:mb-0">
+        <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/astronaut.png" alt="icon">
+        <div>
+          <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">
+            Professionalism
+          </h3>
+          <p class="text-excerpt">We are seasoned professionals, continuously educating ourselves and preparing for the
+            challenges ahead.</p>
         </div>
+      </div>
+      <div
+        class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px] last:mb-0">
+        <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/bulb.png" alt="icon">
+        <div>
+          <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Innovation</h3>
+          <p class="text-excerpt">We create an atmosphere where everyone’s idea counts. <br></p>
+        </div>
+      </div>
+      <div
+        class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px]">
+        <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/integration.png" alt="icon">
+        <div>
+          <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Integrity
+          </h3>
+          <p class="text-excerpt">We demonstrate integrity through being fair, honest and confidential.</p>
+        </div>
+      </div>
+      <div
+        class="flex items-start gap-5 transition-all duration-300 mb-[33px] hover:translate-y-[-3px] border-b border-gray-200 pb-[50px]">
+        <img class="h-full w-full object-cover max-w-[64px]" src="../assets/icons/medal.png" alt="icon">
+        <div>
+          <h3 class="font-bold font-chivo text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Quality
+          </h3>
+          <p class="text-excerpt">We are a high performing, high quality organization dedicated to human resource
+            services.</p>
+        </div>
+      </div>
+    </div>
+
+    
 
   </div>
-  
+
 
 </template>
