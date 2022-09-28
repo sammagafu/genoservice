@@ -9,7 +9,7 @@
               </div>
               <div class="caption">
                 <div class="hero__content mt-50">
-                  <h2 class="font-bebas font-bold text-6xl">{{carousel.caption}}</h2>
+                  <h2 class="font-bebas font-bold lg:text-6xl">{{carousel.caption}}</h2>
                 </div>
               </div>
             </Slide>

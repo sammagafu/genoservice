@@ -1,5 +1,5 @@
 <template>
-  <div class="overlay" :class="{'show':isOpen}"></div>
+  <div class="overlay" :class="{'show':overlay}"></div>
     <header class="h-auto full-width relative py-[15px] first-letter:lg:py-[26px]">
         <div class="px-[12px] md:px-[36px] xl:px-0 mt-0 flex items-center justify-between mx-auto relative max-w-[1320px]">
             <router-link :to="{name:'home'}" class="flex"><img class="logo z-50 w-[90px] md:w-[101px] lg:w-[122px] xl:w-[138px]" src="../assets/logo.svg" alt="logo image"></router-link>
@@ -105,7 +105,8 @@
   export default {
     data(){
       return {
-        isOpen : true
+        isOpen : true,
+        overlay : false
       }
     },
     methods: {
