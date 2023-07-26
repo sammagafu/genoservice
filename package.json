@@ -1,6 +1,7 @@
 {
   "name": "genoservices",
   "version": "0.0.0",
+  "homepage": "https://genoservices.co.tz",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
