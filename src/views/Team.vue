@@ -28,7 +28,7 @@
               </div>
             </div>
 
-            <div class="m-3"> 
+            <!-- <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/baraka.jpg" alt="Baraka D. Mbega">
               </div>
               <div class="flex flex-col justify-between"> 
@@ -44,7 +44,7 @@
                 </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/erick.jpg" alt="Erick E. Mwidunda">
@@ -82,7 +82,7 @@
               </div>
             </div>
 
-            <div class="m-3"> 
+            <!-- <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/consolata.jpg" alt="Consolatha Mhaiki">
               </div>
               <div class="flex flex-col justify-between"> 
@@ -98,9 +98,9 @@
                 </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div class="m-3"> 
+            <!-- <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/cyprian.jpg" alt="Cyprian F. Lubuva">
               </div>
               <div class="flex flex-col justify-between"> 
@@ -116,7 +116,7 @@
                 </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/grace.jpg" alt="Grace S. Baltazary">
@@ -136,7 +136,7 @@
               </div>
             </div>
 
-            <div class="m-3"> 
+            <!-- <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/irene.jpg" alt="Irene W. Mubezi">
               </div>
               <div class="flex flex-col justify-between"> 
@@ -152,7 +152,7 @@
                 </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/masele.jpg" alt="Happy N. Masele">

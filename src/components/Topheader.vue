@@ -28,17 +28,17 @@
               </li>
               
               <li><router-link :to="{name:'contact'}" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">Contact Us</router-link></li>
-              <li class="hidden"><a href="https://riseandlearn.ke/" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">E.A HR Symposium</a></li>
+              <!-- <li class="hidden"><a href="https://riseandlearn.ke/" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">E.A HR Symposium</a></li> -->
 
 
             </ul>
           </nav>
-          <div class="hidden xl:block" @click="myToogle">
+          <!-- <div class="hidden xl:block" @click="myToogle">
             <button type="button"> <a class="flex items-center z-10 relative transition-all duration-200 group px-[22px] py-[15px] lg:px-[32px] lg:py-[22px] rounded-[50px] bg-sky-700	 text-gray-100 hover:bg-gray-900 hover:text-white" href="https://riseandlearn.ke/">
               <span class="block text-inherit w-full h-full rounded-[50px] text-heading-6 font-bold font-pop">E.A HR Symposium</span>
             </a>
           </button>
-          </div>
+          </div> -->
         </div>
         <div class="burger-icon burger-icon-white menu__icon" :class="{'burger-close':isOpen}" @click="myToogle">
           <i class="fa fa-bars"></i>

@@ -277,10 +277,7 @@
         Navigation,
       },
       data: () => ({
-        carousel: [{
-          "image": slider2,
-          "caption": ""
-        }, 
+        carousel: [
         {
           "image": slider3,
           "caption": "Your Reliable HR Partner for People, Policies, Process & Systems Solutions."
