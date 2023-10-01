@@ -89,10 +89,6 @@
                 </li>
                 
                 <li class="py-[13px]">
-                  <a href="https://riseandlearn.ke/" class="hover:text-green-900 text-base menu-link lg:text-heading-6 mr-[7px]">E.A HR Symposium</a>
-                </li>
-
-                <li class="py-[13px]">
                   <router-link :to="{name:'contact'}" class="transition-all duration-200 hover:text-green-900 hover:translate-x-[2px]">Contact Us</router-link>
                 </li>
                 <!-- fixed top-0 right-0 bg-white flex flex-col h-screen nav-shadow overflow-y-scroll nav-mobile transition-all duration-200 w-[380px] z-[100] opacity-0 pointer-events-none -->
