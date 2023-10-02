@@ -13,9 +13,6 @@
                 </div>
               </div>
             </Slide>
-            <template #addons>
-              <Navigation class="navigation" />
-            </template>
           </Carousel>
   </div>
 
@@ -307,11 +304,7 @@
       }),
     }
   </script>
-  <style>
-    .navigation {
-      margin: 0 30px;
-    }
-  
+  <style>  
     .slider-image {
       position: relative;
       text-align: center;
