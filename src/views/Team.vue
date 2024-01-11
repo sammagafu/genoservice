@@ -28,31 +28,13 @@
               </div>
             </div>
 
-            <!-- <div class="m-3"> 
-              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/baraka.jpg" alt="Baraka D. Mbega">
-              </div>
-              <div class="flex flex-col justify-between"> 
-                <div class="mb-3">
-                    <p class="text-heading-6 font-chivo font-bold">Baraka D. Mbega</p>
-                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Business Development Manager</p>
-                </div>
-                <div>
-                  <div class="flex items-center gap-4 z-50">
-                    <a class="transition-transform duration-200 w-[26px] h-[26px] hover:-translate-y-1" href="#" tabindex="0">
-                        <i class="fa fa-linkedin-in"></i>
-                    </a>
-                </div>
-                </div>
-              </div>
-            </div> -->
-
             <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/erick.jpg" alt="Erick E. Mwidunda">
               </div>
               <div class="flex flex-col justify-between"> 
                 <div class="mb-3">
                     <p class="text-heading-6 font-chivo font-bold">Erick E. Mwidunda</p>
-                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Project Manager</p>
+                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Operations Manager</p>
                 </div>
                 <div>
                   <div class="flex items-center gap-4 z-50">
@@ -82,13 +64,13 @@
               </div>
             </div>
 
-            <!-- <div class="m-3"> 
-              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/consolata.jpg" alt="Consolatha Mhaiki">
+            <div class="m-3"> 
+              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/ruth.jpg" alt="Ruth Serem">
               </div>
               <div class="flex flex-col justify-between"> 
                 <div class="mb-3">
-                    <p class="text-heading-6 font-chivo font-bold">Consolatha Mhaiki</p>
-                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Assistant Human Resource Associate</p>
+                    <p class="text-heading-6 font-chivo font-bold">Ruth Serem</p>
+                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Assistant Manager-Change Management</p>
                 </div>
                 <div>
                   <div class="flex items-center gap-4 z-50">
@@ -98,15 +80,15 @@
                 </div>
                 </div>
               </div>
-            </div> -->
+            </div>
 
-            <!-- <div class="m-3"> 
-              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/cyprian.jpg" alt="Cyprian F. Lubuva">
+            <div class="m-3"> 
+              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/masele.jpg" alt="Happy N. Masele">
               </div>
               <div class="flex flex-col justify-between"> 
                 <div class="mb-3">
-                    <p class="text-heading-6 font-chivo font-bold">Cyprian F. Lubuva</p>
-                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Associate Software Developer</p>
+                    <p class="text-heading-6 font-chivo font-bold">Happy N. Masele</p>
+                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Senior Human Resources Associate</p>
                 </div>
                 <div>
                   <div class="flex items-center gap-4 z-50">
@@ -116,7 +98,25 @@
                 </div>
                 </div>
               </div>
-            </div> -->
+            </div>
+
+            <div class="m-3"> 
+              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/halima.jpg" alt="Halima Mkonda">
+              </div>
+              <div class="flex flex-col justify-between"> 
+                <div class="mb-3">
+                    <p class="text-heading-6 font-chivo font-bold">Halima Mkonda</p>
+                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Human Resources Associate</p>
+                </div>
+                <div>
+                  <div class="flex items-center gap-4 z-50">
+                    <a class="transition-transform duration-200 w-[26px] h-[26px] hover:-translate-y-1" href="#" tabindex="0">
+                        <i class="fa fa-linkedin-in"></i>
+                    </a>
+                </div>
+                </div>
+              </div>
+            </div>
 
             <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/grace.jpg" alt="Grace S. Baltazary">
@@ -136,31 +136,13 @@
               </div>
             </div>
 
-            <!-- <div class="m-3"> 
-              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/irene.jpg" alt="Irene W. Mubezi">
-              </div>
-              <div class="flex flex-col justify-between"> 
-                <div class="mb-3">
-                    <p class="text-heading-6 font-chivo font-bold">Irene W. Mubezi</p>
-                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Assistant Accountant</p>
-                </div>
-                <div>
-                  <div class="flex items-center gap-4 z-50">
-                    <a class="transition-transform duration-200 w-[26px] h-[26px] hover:-translate-y-1" href="#" tabindex="0">
-                        <i class="fa fa-linkedin-in"></i>
-                    </a>
-                </div>
-                </div>
-              </div>
-            </div> -->
-
             <div class="m-3"> 
-              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/masele.jpg" alt="Happy N. Masele">
+              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/jacob.jpg" alt="Jacob Ngowi">
               </div>
               <div class="flex flex-col justify-between"> 
                 <div class="mb-3">
-                    <p class="text-heading-6 font-chivo font-bold">Happy N. Masele</p>
-                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Human Resource Associate</p>
+                    <p class="text-heading-6 font-chivo font-bold">Jacob Ngowi</p>
+                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Assistant Manager-Finance</p>
                 </div>
                 <div>
                   <div class="flex items-center gap-4 z-50">
