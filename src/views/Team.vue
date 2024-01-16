@@ -47,12 +47,12 @@
             </div>
 
             <div class="m-3"> 
-              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/francis.jpg" alt="Francis M. Shekiondo">
+              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/jacob.jpg" alt="Jacob Ngowi">
               </div>
               <div class="flex flex-col justify-between"> 
                 <div class="mb-3">
-                    <p class="text-heading-6 font-chivo font-bold">Francis M. Shekiondo</p>
-                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Administrator</p>
+                    <p class="text-heading-6 font-chivo font-bold">Jacob Ngowi</p>
+                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Assistant Manager-Finance</p>
                 </div>
                 <div>
                   <div class="flex items-center gap-4 z-50">
@@ -63,6 +63,8 @@
                 </div>
               </div>
             </div>
+
+           
 
             <div class="m-3"> 
               <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/ruth.jpg" alt="Ruth Serem">
@@ -89,6 +91,24 @@
                 <div class="mb-3">
                     <p class="text-heading-6 font-chivo font-bold">Happy N. Masele</p>
                     <p class="text-md mb-2 opacity-50 text-[#0A3361]">Senior Human Resources Associate</p>
+                </div>
+                <div>
+                  <div class="flex items-center gap-4 z-50">
+                    <a class="transition-transform duration-200 w-[26px] h-[26px] hover:-translate-y-1" href="#" tabindex="0">
+                        <i class="fa fa-linkedin-in"></i>
+                    </a>
+                </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="m-3"> 
+              <div class="mb-[30px]"> <img class="h-full w-full object-cover" src="../assets/img/team/francis.jpg" alt="Francis M. Shekiondo">
+              </div>
+              <div class="flex flex-col justify-between"> 
+                <div class="mb-3">
+                    <p class="text-heading-6 font-chivo font-bold">Francis M. Shekiondo</p>
+                    <p class="text-md mb-2 opacity-50 text-[#0A3361]">Senior Administration Associate</p>
                 </div>
                 <div>
                   <div class="flex items-center gap-4 z-50">

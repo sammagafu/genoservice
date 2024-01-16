@@ -18,9 +18,9 @@
         service delivery, distinguishes us, notwithstanding the diversity and complexity of our customer’s needs.</p>
     </div>
     <!-- <p class="font-medium font-pop text-[16px] leading-[26px] md:text-heading-4 text-gray-600 mx-auto mb-[40px] md:mb-[75px] md:w-[47ch]">GENO Services Limited is a Tanzanian firm, registered under incorporation No 93125, since August 2012, with a focus on Human Resources Consulting Services. We work with clients to craft the most appropriate Human Resource: People, Policies, Process & systems solutions which integrates the current and future business needs as our customer’s organization grows.</p> -->
-    <div class="relative mx-auto max-w-[1190px]">
+    <!-- <div class="relative mx-auto max-w-[1190px]">
       <img class="h-full w-full object-cover rounded-2xl" src="../assets/img/about/img_02.jpg" alt="Agon">
-    </div>
+    </div> -->
 
     <div class="py-24 lg:px-40">
       <div class="lg:flex lg:items-start gap-[30px]">

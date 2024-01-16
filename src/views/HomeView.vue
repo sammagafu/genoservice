@@ -234,17 +234,6 @@
   </div>
   
   </template>
-  <style scoped>
-    .brand__item {
-      filter: grayscale(100%);
-      -webkit-filter: grayscale(100%);
-    }
-  
-    .brand__item:hover {
-      filter: none;
-      -webkit-filter: grayscale(0);
-    }
-  </style>
   <script>
     import 'vue3-carousel/dist/carousel.css';
     import {

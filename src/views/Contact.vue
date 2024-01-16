@@ -20,7 +20,6 @@
               <h3 class="font-bold font-pop text-[20px] leading-[26px] md:text-heading-4 mb-[14px]">Call Us via
               </h3>
               <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="tel:+255733148547">Phone: +255 733 148 547</a></p>
-              <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="tel:+255717626035">Phone: +255 717 626 035</a></p>
               <p class="text-[#7E7E7E] text-[14px] leading-[18px]"><a href="tel:+255679077078">Phone: +255 679 077 078</a></p>
             </div>
           </div>
