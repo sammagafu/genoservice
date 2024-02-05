@@ -1,20 +1,48 @@
 <template>
-  <div class="wrapper mx-auto text-gray-900 font-normal max-w-[1320px]">
+    <section
+    class="h-4/5 py-36 lg:py-48 w-full table relative bg-slider-img bg-center bg-cover"
+    :style="{ 'background-image': `url(${slider1})` }"
+    style="z-index: 0"
+  >
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="container mx-auto relative">
+      <div class="hero__content py-48 text-center">
+        <div class="text-[#C2922E] lg:text-5xl text-4xl lg:leading-normal leading-normal font-bold mb-7 position-relative">
+          <h2 class="font-bebas font-bold lg:text-6xl text-white">Your Reliable HR Partner for <br> People, Policies, Process & Systems Solutions.</h2>
+        </div>
 
-    <div class="full-width banner-hero bg-bg-6 banner-2">
-    <Carousel :items-to-show="1" :autoplay="10000" :wrapAround="true">
-            <Slide v-for="carousel in carousel" :key="carousel">
-              <div class="slider-image bg-cover">
-                <img :src="carousel.image" alt="" srcset="">
+      </div>
+    </div>
+    <div class="absolute bottom-20 left-1/2 transform -translate-x-1/2">
+      <a href="#nominees">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-8 w-8 text-[#C2922E] animate-bounce"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          ></path></svg
+      ></a>
+    </div>
+  </section>
+  <div class="wrapper mx-auto text-gray-900 font-normal max-w-[1320px]">
+<!-- 
+    <div class="w-full banner-hero bg-bg-6 banner-2">
+      <div class="w-full bg-cover">
+                <img src="@/assets/img/genobackground.jpg" alt="" srcset="">
               </div>
               <div class="caption">
                 <div class="hero__content mt-50">
-                  <h2 class="font-bebas font-bold lg:text-6xl">{{carousel.caption}}</h2>
+                  <h2 class="font-bebas font-bold lg:text-6xl text-white">Your Reliable HR Partner for People, Policies, Process & Systems Solutions.</h2>
                 </div>
               </div>
-            </Slide>
-          </Carousel>
-  </div>
+  </div> -->
 
     <!-- service start here -->
     <div class="container lg:mx-auto md:mx-2">
@@ -252,10 +280,12 @@
     import img8 from "@/assets/img/brand/p8.png"
     import img9 from "@/assets/img/brand/p9.png"
     import img10 from "@/assets/img/brand/p10.png"
+
+    import slider1 from "@/assets/img/genobackground.jpg"
+    
     // slider images
-    // import slider1 from "@/assets/img/slider/genobackground.jpg"
-    import slider2 from "@/assets/img/slider/east.jpg"
-    import slider3 from "@/assets/img/slider/madam.jpg"
+   
+
     export default {
       components: {
         Carousel,
@@ -263,12 +293,7 @@
         Navigation,
       },
       data: () => ({
-        carousel: [
-        {
-          "image": slider3,
-          "caption": "Your Reliable HR Partner for People, Policies, Process & Systems Solutions."
-        }, 
-      ],
+        slider1,
         clients: [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10],
         // carousel: [slider1, slider2, slider3],
         // carousel setting
